@@ -19,7 +19,7 @@ print('Listening at:',socket_address)
 k4a = cam_initialize()
 
 IR = False
-IR = True
+# IR = True
 # while True:
 msg,client_addr = server_socket.recvfrom(BUFF_SIZE)
 print('GOT connection from ',client_addr)
